@@ -4,6 +4,8 @@ Event Gates is looking for Deep Learning / Computer Vision engineers who are wil
 
 We would like you to use your abilities in a small python ( use version 3.6) project that is applicable to CV/DL domain. You should consider this as a time-based assignment which should take half a day or a day at the most. Also there won't be any pointers aside from the instructions and requirements section.
 
+This is a full-time and on-site job. The location is Ulutek/Bursa, so no remote.
+
 ### Instructions
 - When you feel ready to give this a try, start by creating a private repo in github and add egt-cvdl github account as a collaborator. Also please add your cv to the repo in pdf format and perform an initial commit with the message: 'cv/dl application, initial commit'
 - When you're ready to start working on the actual project, create an issue.
