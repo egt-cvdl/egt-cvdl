@@ -15,10 +15,12 @@ This is a full-time and on-site job. The location is Ulutek/Bursa, so no remote.
 ### Requirements
 You're required to create a small project that takes several videos as an input, make small adjustments and saves as a separate single video. The details of the assignment are as follows;
 
+- The videos should be merged in order. (e.g: 1.mp4 first, 2.mp4 second etc.)
+- The frame order should remain the same as they are in the numbered videos.
 - The videos are of different dimensions, the output should be 1920x1080@5 FPS
 - You should number every frame with respect to total frames of the merged videos and with respect to current video's total frames. So if there are 3 videos each consisting 30 frames and we are on the 3rd frame of the second video the current frame should show: current: 3/30, merged: 33/90
 - You should save a histogram.pickle that keeps the dominant color in each frame. Continuing with the example in the former item, this should be a dictionary of the form: { 0: 'red', 1:'blue', 2:'green',...,89:'red'}
-- The video saving functionality should receive the video frames with a queue in a separate thread and you should try and explain why, in the related part in the code.
+- The video saving should be done in a separate thread and the relevant code should receive the frames in a queue.
 - BONUS: if all of this is too easy for you, try doing video saving in a separate process.
 
 ### DISCLAIMER
@@ -26,4 +28,4 @@ You're required to create a small project that takes several videos as an input,
 We've already implemented any noteworthy features or functionalities in this document.
 This assignment is only for you to demonstrate your expertise in this domain. We still may use any good ideas. By applying to this position you accept to renounce any rights on the work you submit. Event Gates does not commit itself to hire somebody on the basis of this job listing or application to it, completed successfully or not.
 
-We will not respond to applicant who do not complete below steps.
+We will not respond to applicants who do not complete the steps above.
